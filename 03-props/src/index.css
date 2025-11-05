@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Card{
+  width: 300px;
+  background-color: #222;
+  border: 1px solid white;
+  color: whitesmoke;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  p{
+    margin: 10px 5px;
+    letter-spacing: 1.6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+  }
+  button{
+    background-color : white;
+    border: none;
+    padding: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    border-radius:  5px;
+  }
+  img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+}
+.parent{
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.ccc{
+  color: white;
+}
