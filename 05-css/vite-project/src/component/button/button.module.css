@@ -1,0 +1,11 @@
+
+.btn{
+  background-color: red;
+  color: whitesmoke;
+  width: fit-content;
+  padding: 5px 10px;
+  font-size: 18px;
+  letter-spacing: 1.6px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
