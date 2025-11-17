@@ -6,8 +6,8 @@ const RightCardContent = (props) => {
             <div>
                 <p className="text-lg leading-normal font-semibold drop-shadow-md text-white mb-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum culpa sapiente quia quisquam molestiae! Officiis</p>
                 <div className=" flex items-center justify-around">
-                    <button className="bg-black font-semibold text-white px-3 rounded-full">{props.tag}</button>
-                    <button className="bg-black font-semibold text-white px-3 rounded-full"><ArrowRight size={20} absoluteStrokeWidth /></button>
+                    <button className="bg-blue-500 font-semibold text-white px-3 rounded-full">{props.tag}</button>
+                    <button className="bg-blue-500 font-semibold text-white px-3 rounded-full"><ArrowRight size={20} absoluteStrokeWidth /></button>
                 </div>
             </div>
         </div>
