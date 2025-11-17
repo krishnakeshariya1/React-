@@ -1,10 +1,10 @@
 import RightCard from "./RightCard";
-const RightContent = ()=>{
+const RightContent = (props)=>{
     return(
-        <div className="w-2/3 h-full bg-[#e396cb] p-5 flex gap-5">
-            <RightCard />
-            <RightCard />
-            <RightCard />
+        <div id="right" className="w-2/3 h-full p-5 flex gap-5 flex-nowrap overflow-x-auto ">
+            {props.user.map((ele ,idx)=>{
+                return <RightCard img ={ele.img} tag ={ele.tag} key={idx} id={idx}/>
+            })}
         </div>
     )
 }
