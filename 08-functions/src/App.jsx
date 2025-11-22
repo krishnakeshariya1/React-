@@ -18,6 +18,10 @@ const App = () => {
           clicking(element.target.value)
         }} />
       </div>
+      <div className="box" onMouseMove={function(elem){
+        console.log(elem.clientX);
+      }}>
+      </div>
     </div>
   )
 }
