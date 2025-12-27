@@ -1,5 +1,5 @@
 import { useState } from "react"
-
+import CheckBox from "./Components/CheckBox";
 const App = () => {
 
   const [a, setA] = useState(10);
@@ -25,7 +25,9 @@ const App = () => {
       <h1>The value of {a} <br /> Name of User is {userName}  {obj.name} and the age is {obj.age}</h1>
       <button onClick={changeA}>Click me</button>
       <button onClick={btnClicked}>Click to See</button>
+      <CheckBox />
     </div>
+    
   )
 }
 export default App
